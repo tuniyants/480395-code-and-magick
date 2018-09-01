@@ -200,14 +200,12 @@
     return 1.337 * wizardWidth;
   };
 
-  var wizardHeight = getWizardHeight();
-
   var getWizardX = function (width) {
     return (width / 2) - (wizardWidth / 2);
   };
 
   var getWizardY = function (height) {
-    return height / 3 - wizardHeight;
+    return (height / 3) - getWizardHeight();
   };
 
 </script>
