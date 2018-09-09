@@ -20,7 +20,7 @@ var BAR_GAP = 50;
 
 var message = [
   'Ура вы победили!',
-  'Список результатом:'
+  'Список результатов:'
 ];
 
 var renderCloud = function (ctx, x, y, color) {
