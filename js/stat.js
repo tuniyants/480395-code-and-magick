@@ -44,7 +44,8 @@ var getMaxElement = function (arr) {
 
 /* Возвращает случайный оттенок синего */
 var getRandomColor = function () {
-  return 'rgba(0, 0, 255, ' + Math.random() + ')';
+  var shade = Math.max(Math.random(), 0.1);
+  return 'rgba(0, 0, 255, ' + shade + ')';
 };
 
 window.renderStatistics = function (ctx, names, times) {
